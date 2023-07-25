@@ -1,0 +1,142 @@
+@media (max-width: 600px) {
+  .my-container{
+    flex-direction: column;
+    padding-top: 60px;
+  }
+  .sub-text, h1{
+    text-align: center;
+  }
+  .hero-left{
+    padding-top: 30px;
+  }
+  .qualifications{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+  }
+  .qualifications p{
+    font-size: 15px;
+  }
+  .contact{
+    padding-top: 50vh;
+  }
+}
+.hero-section{
+  background: linear-gradient(-45deg, #FFFF6E,#FF54F4, #B3B33B, #FFDF61);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 110vh;
+}
+.my-container{
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero-left{
+  justify-self: flex-start;
+}
+.hero-right{
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: baseline;
+}
+
+h1{
+  font-family: 'Bukhari Script', sans-serif;
+  font-size: 3rem;
+  color: #EBA921;
+}
+.sub-text{
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 1.3rem;
+  color: white;
+  width: auto;
+}
+.image-left{
+  height: 80vh;
+  max-width: 26rem;
+  padding-bottom: 0px;
+}
+.introduction{
+  width: auto;
+  background-color: rgb(251, 251, 251);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  height: 100vh;
+}
+.pic{
+  border-radius: 50%;
+  height: 19rem;
+}
+.intro-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  color: #EBA921;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+}
+.into-description{
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.qualifications{
+  height: 100vh;
+  display: flex;
+  width: auto;
+  justify-content: space-around;
+  padding-top: 25vh;
+}
+.education, .skills, .accomplishments{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  text-align: center;
+}
+h3{
+  margin-bottom: 19px;
+  font-family: 'Bukhari Script', sans-serif;
+  color: #EBA921;
+}
+.qualifications p{
+  font-family: 'Josefin-sans', sans-serif;
+  font-size: 1.3rem;
+}
+a{
+  color: black;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+  text-align: center;
+}
+#contact-header{
+  margin-bottom: 30px;
+}
+.contact p{
+  font-family: 'Josefin-sans', sans-serif;
+  font-size: 1.4rem;
+  margin-bottom: 50px;
+}
+.footer{
+  background-color: #FEFF86;
+  display: flex;
+  width: 100%;
+  height: 8rem;
+  justify-content: space-around;
+  padding-top: 30px;
+}
